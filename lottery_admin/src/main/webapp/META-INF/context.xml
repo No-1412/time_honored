@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/lottery"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://127.0.0.1:3306/lottery_product?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+		username="root"
+		password="root"
+		testOnBorrow="false"
+		validationQuery="SELECT 1"
+		testWhileIdle="true"
+		timeBetweenEvictionRunsMillis="14400000"
+		maxActive="2000"
+		maxIdle="10"
+		maxWait="10000" />
+</Context>
